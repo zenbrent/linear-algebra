@@ -1,4 +1,4 @@
-(ns linear.ch1-2
+(ns linear.ch1-2-reduction-echelon
   (:require [linear.row-operations :refer [swap-rows update-row add-multiple]]
     [incanter.core :refer :all]
             [clojure.pprint :refer [pprint]]))

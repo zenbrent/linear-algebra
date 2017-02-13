@@ -1,4 +1,4 @@
-(ns linear.ch1-1
+(ns linear.ch1-1-systems
   (:require [linear.row-operations :refer [swap-rows update-row]]
     [incanter.core :refer :all]
             [clojure.pprint :refer [pprint]]))
