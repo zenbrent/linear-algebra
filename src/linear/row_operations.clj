@@ -21,3 +21,7 @@
      (first rows) (apply f (concat
                              (map #(nth mx %) rows)
                              r)))))
+
+(defn add-multiple [r1 r2 s]
+  (plus r1 (mult r2 s)))
+
